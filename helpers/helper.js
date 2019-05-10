@@ -15,12 +15,27 @@ const newDate = () => new Date().toString();
 
 
 // To find a question with provided ID
-function findByID(array, id) {
+function findQuestionByID(array, id) {
   return new Promise((resolve, reject) => {
     const row = array.find(r => r.id == id);
     if (!row) {
       reject({
         message: "Question with the provided ID does not exist",
+        status: 404
+      });
+    }
+    resolve(row);
+  });
+}
+
+
+// To find an answer with provided ID
+function findAnswerByID(array, id) {
+  return new Promise((resolve, reject) => {
+    const row = array.find(r => r.id == id);
+    if (!row) {
+      reject({
+        message: "Answer with the provided ID does not exist",
         status: 404
       });
     }
@@ -42,6 +57,7 @@ function writeJSONFile(filename, content) {
 module.exports = {
   getNewId,
   newDate,
-  findByID,
+  findQuestionByID,
+  findAnswerByID,
   writeJSONFile
 };

@@ -18,7 +18,7 @@ function getAnswers() {
 function getAnswer(id) {
   return new Promise((resolve, reject) => {
     helper
-      .findByID(answers, id)
+      .findAnswerByID(answers, id)
       .then(answer => resolve(answer))
       .catch(err => reject(err));
   });
@@ -28,8 +28,7 @@ function createAnswer(newAnswer) {
   return new Promise((resolve, reject) => {
     const id = { id: helper.getNewId(answers) };
     const date = {
-      createdAt: helper.newDate(),
-      updatedAt: helper.newDate()
+      createdAt: helper.newDate()
     };
     newAnswer = { ...id, ...date, ...newAnswer };
     answers.push(newAnswer);
