@@ -1,7 +1,7 @@
 {
   "name": "quiz-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple quiz Nodejs application using JSON files as databases",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
