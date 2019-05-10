@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "createdAt": "Wed May 08 2019 23:22:59 GMT+0100 (WAT)",
+    "updatedAt": "Wed May 08 2019 23:22:59 GMT+0100 (WAT)",
+    "question": "What can be used to call JavaScript code?",
+    "options": ["RMI", "Triggering Event", "Preprocessor", "Function/Method"],
+    "correct_answer": 3
+  },
+  {
+    "id": 2,
+    "createdAt": "Fri May 10 2019 11:24:01 GMT+0100 (WAT)",
+    "updatedAt": "Fri May 10 2019 11:24:01 GMT+0100 (WAT)",
+    "question": "What is the type of a variable that is volatile",
+    "options": [
+      "Volatile variable",
+      "Mutable variable",
+      "Immutable variable",
+      "Dynamic variable"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 3,
+    "createdAt": "Fri May 10 2019 11:26:45 GMT+0100 (WAT)",
+    "updatedAt": "Fri May 10 2019 11:26:45 GMT+0100 (WAT)",
+    "question": "What does hexadecimal literal begins with",
+    "options": ["00", "0x", "0X", "Both 0x and 0X"],
+    "correct_answer": 3
+  },
+  {
+    "id": 4,
+    "createdAt": "Fri May 10 2019 11:29:07 GMT+0100 (WAT)",
+    "updatedAt": "Fri May 10 2019 11:29:07 GMT+0100 (WAT)",
+    "question": "Which of the following is not considered as an error in JavaScript?",
+    "options": [
+      "Syntax error",
+      "Missing of semicolons",
+      "Division by zero",
+      "Missing of Bracket"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 5,
+    "createdAt": "Fri May 10 2019 11:31:04 GMT+0100 (WAT)",
+    "updatedAt": "Fri May 10 2019 11:31:04 GMT+0100 (WAT)",
+    "question": "What does statement a===b mean?",
+    "options": [
+      "Both a and b are equal in value, type and reference address",
+      "Both a and b are equal in value",
+      "Both a and b are equal in value and type",
+      "There is no such statement"
+    ],
+    "correct_answer": 2
+  }
+]
