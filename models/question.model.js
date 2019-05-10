@@ -17,7 +17,7 @@ function getQuestions() {
 function getQuestion(id) {
   return new Promise((resolve, reject) => {
     helper
-      .findAQuestion(questions, id)
+      .findByID(questions, id)
       .then(question => resolve(question))
       .catch(err => reject(err));
   });

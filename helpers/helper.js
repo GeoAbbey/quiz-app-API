@@ -15,7 +15,7 @@ const newDate = () => new Date().toString();
 
 
 // To find a question with provided ID
-function findAQuestion(array, id) {
+function findByID(array, id) {
   return new Promise((resolve, reject) => {
     const row = array.find(r => r.id == id);
     if (!row) {
@@ -42,6 +42,6 @@ function writeJSONFile(filename, content) {
 module.exports = {
   getNewId,
   newDate,
-  findAQuestion,
+  findByID,
   writeJSONFile
 };
