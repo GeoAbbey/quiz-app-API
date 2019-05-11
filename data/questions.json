@@ -5,7 +5,7 @@
     "updatedAt": "Wed May 08 2019 23:22:59 GMT+0100 (WAT)",
     "question": "What can be used to call JavaScript code?",
     "options": ["RMI", "Triggering Event", "Preprocessor", "Function/Method"],
-    "correct_answer": 3
+    "correct_answer": "Function/Method"
   },
   {
     "id": 2,
@@ -18,7 +18,7 @@
       "Immutable variable",
       "Dynamic variable"
     ],
-    "correct_answer": 1
+    "correct_answer": "Mutable variable"
   },
   {
     "id": 3,
@@ -26,7 +26,7 @@
     "updatedAt": "Fri May 10 2019 11:26:45 GMT+0100 (WAT)",
     "question": "What does hexadecimal literal begins with",
     "options": ["00", "0x", "0X", "Both 0x and 0X"],
-    "correct_answer": 3
+    "correct_answer": "Both 0x and 0X"
   },
   {
     "id": 4,
@@ -39,7 +39,7 @@
       "Division by zero",
       "Missing of Bracket"
     ],
-    "correct_answer": 2
+    "correct_answer": "Division by zero"
   },
   {
     "id": 5,
@@ -52,6 +52,6 @@
       "Both a and b are equal in value and type",
       "There is no such statement"
     ],
-    "correct_answer": 2
+    "correct_answer": "Both a and b are equal in value and type"
   }
 ]
