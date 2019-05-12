@@ -1,8 +1,7 @@
 [
   {
     "id": 1,
-    "createdAt": "Wed May 08 2019 23:22:59 GMT+0100 (WAT)",
-    "updatedAt": "Wed May 08 2019 23:22:59 GMT+0100 (WAT)",
+    "createdAt": "Fri May 10 2019 11:20:31 GMT+0100 (WAT)",
     "question": "What can be used to call JavaScript code?",
     "options": ["RMI", "Triggering Event", "Preprocessor", "Function/Method"],
     "correct_answer": "Function/Method"
@@ -10,7 +9,6 @@
   {
     "id": 2,
     "createdAt": "Fri May 10 2019 11:24:01 GMT+0100 (WAT)",
-    "updatedAt": "Fri May 10 2019 11:24:01 GMT+0100 (WAT)",
     "question": "What is the type of a variable that is volatile",
     "options": [
       "Volatile variable",
@@ -23,7 +21,6 @@
   {
     "id": 3,
     "createdAt": "Fri May 10 2019 11:26:45 GMT+0100 (WAT)",
-    "updatedAt": "Fri May 10 2019 11:26:45 GMT+0100 (WAT)",
     "question": "What does hexadecimal literal begins with",
     "options": ["00", "0x", "0X", "Both 0x and 0X"],
     "correct_answer": "Both 0x and 0X"
@@ -31,7 +28,6 @@
   {
     "id": 4,
     "createdAt": "Fri May 10 2019 11:29:07 GMT+0100 (WAT)",
-    "updatedAt": "Fri May 10 2019 11:29:07 GMT+0100 (WAT)",
     "question": "Which of the following is not considered as an error in JavaScript?",
     "options": [
       "Syntax error",
@@ -44,7 +40,6 @@
   {
     "id": 5,
     "createdAt": "Fri May 10 2019 11:31:04 GMT+0100 (WAT)",
-    "updatedAt": "Fri May 10 2019 11:31:04 GMT+0100 (WAT)",
     "question": "What does statement a===b mean?",
     "options": [
       "Both a and b are equal in value, type and reference address",
@@ -53,5 +48,60 @@
       "There is no such statement"
     ],
     "correct_answer": "Both a and b are equal in value and type"
+  },
+  {
+    "id": 6,
+    "createdAt": "Sun May 12 2019 10:00:04 GMT+0100 (WAT)",
+    "question": "What is the snippet that has to be used to check if “a” is not equal to “null”?",
+    "options": ["if(a!=null)", "if (!a)", "if(a!null)", "if(a!==null)"],
+    "correct_answer": "if(a!==null)"
+  },
+  {
+    "id": 7,
+    "createdAt": "Sun May 12 2019 10:02:41 GMT+0100 (WAT)",
+    "question": "Assume that we have to convert “false” that is a non-string to string. The command that we use is (without invoking the “new” operator)",
+    "options": [
+      "false.toString()",
+      "String(false)",
+      "String newvariable=”false”",
+      "Both false.toString() and String(false)"
+    ],
+    "correct_answer": "Both false.toString() and String(false)"
+  },
+  {
+    "id": 8,
+    "createdAt": "Sun May 12 2019 10:05:07 GMT+0100 (WAT)",
+    "question": "A function definition expression can be called?",
+    "options": [
+      "Function prototype",
+      "Function literal",
+      "Function calling",
+      "Function declaration"
+    ],
+    "correct_answer": "Function literal"
+  },
+  {
+    "id": 9,
+    "createdAt": "Sun May 12 2019 10:10:27 GMT+0100 (WAT)",
+    "question": "What is the property of a primary expression?",
+    "options": [
+      "stand-alone expressions",
+      "basic expressions containing all necessary functions",
+      "contains variable references alone",
+      "contains only keywords"
+    ],
+    "correct_answer": "stand-alone expressions"
+  },
+  {
+    "id": 10,
+    "createdAt": "Sun May 12 2019 10:10:54 GMT+0100 (WAT)",
+    "question": "The expression of calling ( or executing ) a function or method in JavaScript is called?",
+    "options": [
+      "Primary expression",
+      "Functional expression",
+      "Invocation expression",
+      "Property Access Expression"
+    ],
+    "correct_answer": "Invocation expression"
   }
 ]

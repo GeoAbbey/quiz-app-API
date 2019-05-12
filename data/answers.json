@@ -1,18 +1,1 @@
-[
-  {
-    "id": 1,
-    "createdAt": "Fri May 10 2019 17:26:02 GMT+0100 (WAT)",
-    "name": "Ismail Olasunkanmi",
-    "email": "olasunkanmiismail2@gmail.com",
-    "solved_questions": "2",
-    "percentage_score": "70"
-  },
-  {
-    "id": 2,
-    "createdAt": "Fri May 10 2019 17:31:48 GMT+0100 (WAT)",
-    "name": "Ismail Olasunkanmi",
-    "email": "olasunkanmiismail2@gmail.com",
-    "solved_questions": "2",
-    "percentage_score": "70"
-  }
-]
+[]
